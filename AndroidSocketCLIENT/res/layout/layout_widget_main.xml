@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+    
+    <LinearLayout 
+        android:id="@+id/contenido"
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#000"
+        >
+        <TextView 
+            android:id="@+id/texto"
+           	android:layout_width="fill_parent"
+           	android:layout_height="wrap_content"
+           	android:layout_gravity="center_horizontal|center"
+           	android:text="robert"
+           	android:textSize="9pt"
+           	android:textStyle="bold"
+           	android:textColor="#fff"
+            />
+        
+    </LinearLayout>
+<LinearLayout 
+    android:id="@+id/cara_android"
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:background="@drawable/ic_launcher"
+    android:layout_gravity="center_horizontal|center"
+    ></LinearLayout>
+</LinearLayout>
